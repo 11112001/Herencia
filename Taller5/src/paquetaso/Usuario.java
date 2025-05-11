@@ -34,7 +34,7 @@ public class Usuario {
             reproducirCancion(playlist.get(i));
             try 
             {
-                Thread.sleep(2000); // Esperar 2 segundos entre canciones
+                Thread.sleep(2000); 
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

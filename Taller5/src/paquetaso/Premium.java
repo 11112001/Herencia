@@ -19,7 +19,6 @@ public class Premium extends Usuario {
     public ArrayList<Cancion> getCancionesDescargadas() {return cancionesDescargadas;}
     public void setCancionesDescargadas(ArrayList<Cancion> cancionesDescargadas) {this.cancionesDescargadas = cancionesDescargadas;}
 
-    // Método sobrescrito para sumar puntos
     public void reproducirCancion(Cancion cancion) 
     {
         super.reproducirCancion(cancion);

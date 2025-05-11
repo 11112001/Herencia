@@ -1,5 +1,21 @@
 package paquetaso;
 
+/*
+ ________________
+< I use arch btw >
+ ----------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+ */
+
+
 public class Cancion {
     private String nombre;
     private String artista;
@@ -29,4 +45,3 @@ public class Cancion {
         return "Cancion: " + nombre + ", Artista: " + artista + ", Álbum: " + album + ", Duración: " + duracion + "s";
     }
 }
-
